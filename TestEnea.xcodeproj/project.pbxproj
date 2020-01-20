@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		43050F6C23D5A7C800A840DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43050F6B23D5A7C800A840DD /* AppDelegate.swift */; };
-		43050F6E23D5A7C800A840DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43050F6D23D5A7C800A840DD /* SceneDelegate.swift */; };
-		43050F7023D5A7C800A840DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43050F6F23D5A7C800A840DD /* ViewController.swift */; };
-		43050F7323D5A7C800A840DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43050F7123D5A7C800A840DD /* Main.storyboard */; };
 		43050F7523D5A7C900A840DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43050F7423D5A7C900A840DD /* Assets.xcassets */; };
 		43050F7823D5A7C900A840DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43050F7623D5A7C900A840DD /* LaunchScreen.storyboard */; };
+		43050F8023D5A92B00A840DD /* GithubClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43050F7F23D5A92B00A840DD /* GithubClient.swift */; };
+		43050F8223D5B19000A840DD /* GithubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43050F8123D5B19000A840DD /* GithubRepository.swift */; };
+		43050F8423D5BA6D00A840DD /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43050F8323D5BA6D00A840DD /* RepositoriesViewController.swift */; };
+		43050F8623D5BEDC00A840DD /* Repositories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43050F8523D5BEDC00A840DD /* Repositories.storyboard */; };
+		43050F8723D5BFA900A840DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43050F6F23D5A7C800A840DD /* LoginViewController.swift */; };
+		43050F8923D5C02D00A840DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43050F8823D5C02D00A840DD /* Main.storyboard */; };
+		43159DF523D65C1D00E6555D /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43159DF423D65C1D00E6555D /* RepositoryTableViewCell.swift */; };
+		43159DF823D65FBD00E6555D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43159DF723D65FBD00E6555D /* SceneDelegate.swift */; };
+		4358C7F823D5C36400B4D625 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4358C7F723D5C36400B4D625 /* Extensions.swift */; };
+		69DB066CB1657CCEAE5BAC48 /* Pods_TestEnea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54006F8B47A4F04277717089 /* Pods_TestEnea.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		43050F6823D5A7C800A840DD /* TestEnea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEnea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43050F6823D5A7C800A840DD /* EneaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EneaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43050F6B23D5A7C800A840DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43050F6D23D5A7C800A840DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		43050F6F23D5A7C800A840DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		43050F7223D5A7C800A840DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43050F6F23D5A7C800A840DD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		43050F7423D5A7C900A840DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43050F7723D5A7C900A840DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43050F7923D5A7C900A840DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43050F7F23D5A92B00A840DD /* GithubClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubClient.swift; sourceTree = "<group>"; };
+		43050F8123D5B19000A840DD /* GithubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRepository.swift; sourceTree = "<group>"; };
+		43050F8323D5BA6D00A840DD /* RepositoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
+		43050F8523D5BEDC00A840DD /* Repositories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Repositories.storyboard; sourceTree = "<group>"; };
+		43050F8823D5C02D00A840DD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		43159DF423D65C1D00E6555D /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		43159DF723D65FBD00E6555D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4358C7F723D5C36400B4D625 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		54006F8B47A4F04277717089 /* Pods_TestEnea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestEnea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6B6FF787D8EF4503415559 /* Pods-TestEnea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestEnea.debug.xcconfig"; path = "Target Support Files/Pods-TestEnea/Pods-TestEnea.debug.xcconfig"; sourceTree = "<group>"; };
+		C8AB07B6D028CADCCB220B0E /* Pods-TestEnea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestEnea.release.xcconfig"; path = "Target Support Files/Pods-TestEnea/Pods-TestEnea.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +47,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69DB066CB1657CCEAE5BAC48 /* Pods_TestEnea.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E4972B13E1ABFBDA68E48EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A6B6FF787D8EF4503415559 /* Pods-TestEnea.debug.xcconfig */,
+				C8AB07B6D028CADCCB220B0E /* Pods-TestEnea.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		43050F5F23D5A7C800A840DD = {
 			isa = PBXGroup;
 			children = (
 				43050F6A23D5A7C800A840DD /* TestEnea */,
 				43050F6923D5A7C800A840DD /* Products */,
+				3E4972B13E1ABFBDA68E48EA /* Pods */,
+				852A7BB7B3C4C1B1212AC5B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		43050F6923D5A7C800A840DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43050F6823D5A7C800A840DD /* TestEnea.app */,
+				43050F6823D5A7C800A840DD /* EneaTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,14 +85,68 @@
 			isa = PBXGroup;
 			children = (
 				43050F6B23D5A7C800A840DD /* AppDelegate.swift */,
-				43050F6D23D5A7C800A840DD /* SceneDelegate.swift */,
-				43050F6F23D5A7C800A840DD /* ViewController.swift */,
-				43050F7123D5A7C800A840DD /* Main.storyboard */,
 				43050F7423D5A7C900A840DD /* Assets.xcassets */,
-				43050F7623D5A7C900A840DD /* LaunchScreen.storyboard */,
+				43159DF923D65FFD00E6555D /* Controllers */,
+				43159DFC23D6603400E6555D /* Helpers */,
 				43050F7923D5A7C900A840DD /* Info.plist */,
+				43159DF623D65F8100E6555D /* Models */,
+				43159DF723D65FBD00E6555D /* SceneDelegate.swift */,
+				43159DFA23D6600B00E6555D /* Storyboards */,
+				43159DFB23D6602800E6555D /* Views */,
 			);
 			path = TestEnea;
+			sourceTree = "<group>";
+		};
+		43159DF623D65F8100E6555D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43050F8123D5B19000A840DD /* GithubRepository.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43159DF923D65FFD00E6555D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				43050F6F23D5A7C800A840DD /* LoginViewController.swift */,
+				43050F8323D5BA6D00A840DD /* RepositoriesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		43159DFA23D6600B00E6555D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				43050F8823D5C02D00A840DD /* Main.storyboard */,
+				43050F8523D5BEDC00A840DD /* Repositories.storyboard */,
+				43050F7623D5A7C900A840DD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		43159DFB23D6602800E6555D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43159DF423D65C1D00E6555D /* RepositoryTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43159DFC23D6603400E6555D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4358C7F723D5C36400B4D625 /* Extensions.swift */,
+				43050F7F23D5A92B00A840DD /* GithubClient.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		852A7BB7B3C4C1B1212AC5B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54006F8B47A4F04277717089 /* Pods_TestEnea.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43050F7C23D5A7C900A840DD /* Build configuration list for PBXNativeTarget "TestEnea" */;
 			buildPhases = (
+				42B9C2E75A0115AEA3C64B98 /* [CP] Check Pods Manifest.lock */,
 				43050F6423D5A7C800A840DD /* Sources */,
 				43050F6523D5A7C800A840DD /* Frameworks */,
 				43050F6623D5A7C800A840DD /* Resources */,
+				8BD277507CCF42BD8BD5347C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +168,7 @@
 			);
 			name = TestEnea;
 			productName = TestEnea;
-			productReference = 43050F6823D5A7C800A840DD /* TestEnea.app */;
+			productReference = 43050F6823D5A7C800A840DD /* EneaTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,35 +210,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				43050F7823D5A7C900A840DD /* LaunchScreen.storyboard in Resources */,
+				43050F8923D5C02D00A840DD /* Main.storyboard in Resources */,
 				43050F7523D5A7C900A840DD /* Assets.xcassets in Resources */,
-				43050F7323D5A7C800A840DD /* Main.storyboard in Resources */,
+				43050F8623D5BEDC00A840DD /* Repositories.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42B9C2E75A0115AEA3C64B98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestEnea-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BD277507CCF42BD8BD5347C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestEnea/Pods-TestEnea-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestEnea/Pods-TestEnea-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestEnea/Pods-TestEnea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43050F6423D5A7C800A840DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43050F7023D5A7C800A840DD /* ViewController.swift in Sources */,
+				43050F8723D5BFA900A840DD /* LoginViewController.swift in Sources */,
 				43050F6C23D5A7C800A840DD /* AppDelegate.swift in Sources */,
-				43050F6E23D5A7C800A840DD /* SceneDelegate.swift in Sources */,
+				43050F8223D5B19000A840DD /* GithubRepository.swift in Sources */,
+				43159DF523D65C1D00E6555D /* RepositoryTableViewCell.swift in Sources */,
+				43050F8423D5BA6D00A840DD /* RepositoriesViewController.swift in Sources */,
+				43050F8023D5A92B00A840DD /* GithubClient.swift in Sources */,
+				4358C7F823D5C36400B4D625 /* Extensions.swift in Sources */,
+				43159DF823D65FBD00E6555D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		43050F7123D5A7C800A840DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43050F7223D5A7C800A840DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		43050F7623D5A7C900A840DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +406,7 @@
 		};
 		43050F7D23D5A7C900A840DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6B6FF787D8EF4503415559 /* Pods-TestEnea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,7 +417,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexbuga.TestEnea;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EneaTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +425,7 @@
 		};
 		43050F7E23D5A7C900A840DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8AB07B6D028CADCCB220B0E /* Pods-TestEnea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexbuga.TestEnea;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = EneaTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
